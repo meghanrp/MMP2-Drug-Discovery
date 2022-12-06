@@ -15,3 +15,15 @@ All molecular/chemical data for this project was acquired from the [ChEMBL datab
 
 ## Future Directions
 Future directions of this project will be focused on using classification methods to determine the accuracy of predicting only the active chemical compounds. In addition, TensorFlow and other neural network packages may be utilized to improve the accuracy/sensitivity/specificity of the model.
+
+## Repository Structure
+The structure of this repository is as follows:
+
+- data_analysis_results: Folder containing the results from the exploratory data analysis procedures.
+- mmp2_datasets: Folder containing the MMP2 datasets utilized in the project.
+- mmp2_model: Folder containing the final and primary MMP2 model utilized in the experiment in two different formats.
+- model_results: Folder containing the model performance results for the various machine learning models utilized.
+- PubChem.csv: File containing the PubChem fingerprint output.
+- comp_drug_discovery_project.ipynb: The Jupyter notebook file for the project.
+- fingerprints.zip: The file containing the fingerprint types that can be utilized in PaDEL.
+- molecule.smi: The SMILES file that is utilized for PaDEL.
